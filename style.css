@@ -67,15 +67,51 @@ h1 {
 }
 
 img {
-    width: 40vh;
+    width: 400px;
     height: auto;
 }
 
 button {
     border: none;
     border-radius: 8px;
-    background: #0066ff;
+    background: #3882F6;
     padding: 8px;
     color: #fff;
     font-weight: 700;
+}
+
+.random-info {
+
+}
+
+.info-header {
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 150px;
+}
+
+.icon {
+    border: solid #3882F6;
+    border-radius: 8px;
+    width: 150px;
+}
+
+.box p {
+    font-size: 18px;
+    text-align: center;
 }
