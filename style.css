@@ -12,7 +12,7 @@ body {
     color: #ffffff;
     justify-content: space-between;
     align-items: center;
-    padding: 0.5em 2em;
+    padding: 0.5em 10vw;
 }
 
 .logo {
@@ -42,7 +42,7 @@ a {
     color: #ffffff;
     justify-content: center;
     align-items: center;
-    padding: 0.5em 2em;
+    padding: 5em 10vw;
 }
 
 h1 {
@@ -62,7 +62,7 @@ h1 {
 .title-image {
     flex: 1;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
 }
 
@@ -71,7 +71,7 @@ img {
     height: auto;
 }
 
-button {
+.title-text button {
     border: none;
     border-radius: 8px;
     background: #3882F6;
@@ -81,7 +81,8 @@ button {
 }
 
 .random-info {
-
+    padding: 2em 10vw 5em;
+    flex: 1;
 }
 
 .info-header {
@@ -96,7 +97,8 @@ h2 {
 
 .boxes {
     display: flex;
-    justify-content: center;
+    flex: 1;
+    justify-content: space-between;
     gap: 50px;
     flex-wrap: wrap;
 }
@@ -114,4 +116,66 @@ h2 {
 .box p {
     font-size: 18px;
     text-align: center;
+}
+
+.quotes {
+    background-color: #E5E7EB;
+    padding: 5em 10vw;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    font-weight: 700;
+    text-align: right;
+}
+
+.signup-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 10vw;
+}
+
+.signup {
+    border-radius: 8px;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    color: #fff;
+    padding: 32px 64px;
+    gap: 64px;
+}
+
+.signup-text h3 {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.signup-text p {
+    font-size: 18px;
+}
+
+.signup-button button {
+    border: solid #fff;
+    border-radius: 8px;
+    background: #3882F6;
+    padding: 8px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em 2em;
 }
